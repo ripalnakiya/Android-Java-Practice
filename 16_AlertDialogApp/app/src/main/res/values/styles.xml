@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="viewStyle">
+        <item name="android:textSize">26sp</item>
+        <item name="android:layout_margin">7dp</item>
+    </style>
+
+</resources>
