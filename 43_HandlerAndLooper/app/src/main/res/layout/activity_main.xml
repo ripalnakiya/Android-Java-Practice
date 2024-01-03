@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:backgroundTint="#E91E63"
+        android:text="Start Looper"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/taskAButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:backgroundTint="#2196F3"
+        android:text="Task A"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/taskBButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:backgroundTint="#00BCD4"
+        android:text="Task B"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:backgroundTint="#8BC34A"
+        android:text="Stop Looper"
+        android:textSize="20sp" />
+
+</LinearLayout>
