@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void updateTextView(Calendar c) {
         String AM_PM;
-        if (c.get(Calendar.PM) == 1)
+        if (c.get(Calendar.AM_PM) == Calendar.PM)
             AM_PM = "PM";
         else {
             AM_PM = "AM";
